@@ -1,0 +1,23 @@
+{
+  "name": "rsbuild-analyze",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "build:analyze": "ANALYZE=true && rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.8",
+    "@rsbuild/plugin-react": "^1.0.5",
+    "@types/node": "^22.7.9",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
